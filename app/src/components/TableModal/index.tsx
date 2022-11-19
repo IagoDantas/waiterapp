@@ -17,6 +17,7 @@ export function TableModal({ visible, onClose, onSave }: ITableModalProps) {
   const [table, setTable] = useState('');
 
   function handleSave() {
+    setTable('');
     onSave(table);
     onClose();
   };
@@ -35,7 +36,6 @@ export function TableModal({ visible, onClose, onSave }: ITableModalProps) {
             <TouchableOpacity onPress={(onClose)}>
               <Close color="#666" />
             </TouchableOpacity>
-
           </Header>
 
           <Form>
