@@ -33,7 +33,7 @@ O WaiterApp foi um projeto desenvolvido durante a semana "O Poder do JavaScript"
   
 * BackEnd
 
-  * Node
+  * NodeJS
   * Express
   * Socket-io
   * Multer
