@@ -4,9 +4,11 @@
 <hr/>
 
 ## O que é o WaiterApp?
+<p align="center">
 <img src="https://github.com/Vitor-Tx/opjs-front-end/blob/master/src/assets/images/logo.svg" width="500" height="200">
 
 O WaiterApp foi um projeto desenvolvido durante a semana "O Poder do JavaScript", do [/maateusilva](http://github.com/maateusilva). Esse repositório contém a aplicação completa.
+</p>
 <hr/>
 
 
@@ -49,7 +51,7 @@ O WaiterApp foi um projeto desenvolvido durante a semana "O Poder do JavaScript"
 # Como rodar o projeto?
 
 > Como rodar a API?
-```
+```bash
 # Como clonar
 $ git clone https://github.com/IagoDantas/waiterapp.git
 
@@ -58,9 +60,9 @@ $ cd api
 
 # Conecte ao banco de dados colocando a sua `CONNECTIONSTRING` no arquivo `.env`
 
-mongodb+srv://<seu-usuario>:<sua-senha>@$<seu-cluster>.mongodb.net/?retryWrites=true&w=majority //caso for usar atlas mongoose
+mongodb+srv://<seu-usuario>:<sua-senha>@$<seu-cluster>.mongodb.net/?retryWrites=true&w=majority # caso for usar atlas mongoose
 
-mongodb://localhost:27017" //usando docker
+mongodb://localhost:27017 # usando docker
 
 # Rode a api(acesse http://localhost:3001/).
 # Instale as dependências da api
@@ -71,9 +73,9 @@ $ npm run start
 
 
 >Como rodar o front-end?
-```
+```bash
 
-# Com o projeto ja clonado"
+# Com o projeto ja clonado
 # Acesse a pasta do front-end
 $ cd fe
 
@@ -85,7 +87,7 @@ $ npm run dev
 ```
 
 >Como rodar o mobile?
-```
+```bash
 # Com o projeto ja clonado
 # Acesse a pasta do app mobile
 $ cd app
@@ -97,3 +99,5 @@ $ npm i
 $ npm run start
 
 ```
+
+Feito por Iago Dantas. [Entre em contato!](https://www.linkedin.com/in/iago-dantas-5ab59820a/)
